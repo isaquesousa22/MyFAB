@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/chkMulheres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mulheres" />
+
+        <CheckBox
+            android:id="@+id/chkHomem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homens" />
+
+        <CheckBox
+            android:id="@+id/chkOsDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Os dois" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:src="@drawable/baseline_email" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/idFABExtend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="20dp"
+        android:text="New Tasks"
+        app:icon="@drawable/baseline_add" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
