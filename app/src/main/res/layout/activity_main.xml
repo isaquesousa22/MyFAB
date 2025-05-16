@@ -10,7 +10,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="Escolha"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
 
         <CheckBox
             android:id="@+id/chkMulheres"
@@ -29,6 +42,73 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Os dois" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="Escolha"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdbVerdadeiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verdadeiro" />
+
+            <RadioButton
+                android:id="@+id/rdbFalso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falso" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:text="General"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtWIFI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Wi-fi" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Fēi háng móshì" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtModoAvião"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Modo Avião" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swtNãoPertube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Não Pertube" />
 
     </LinearLayout>
 
